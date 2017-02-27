@@ -7,11 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E142E3E21E64126900124568 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E142E3E11E64126900124568 /* main.m */; };
+		E142E3F01E64187D00124568 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E142E3E11E64126900124568 /* main.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E142E3FC1E6419DF00124568 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E142E3D61E64126900124568 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E142E3F41E6418C900124568;
+			remoteInfo = 01_program_structure;
+		};
+		E142E4151E641A6B00124568 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E142E4111E641A6A00124568 /* 01_program_structure.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E142E4071E641A6A00124568;
+			remoteInfo = 01_program_structure;
+		};
+		E142E42E1E641D7C00124568 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E142E42A1E641D7B00124568 /* 02_tokens_in_objective_c.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E142E4201E641D7B00124568;
+			remoteInfo = 02_tokens_in_objective_c;
+		};
+		E142E4471E64226C00124568 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E142E4431E64226B00124568 /* 03_variables.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E142E4391E64226B00124568;
+			remoteInfo = 03_variables;
+		};
+		E142E4601E64256E00124568 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E142E45C1E64256D00124568 /* 04_constants.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E142E4521E64256D00124568;
+			remoteInfo = 04_constants;
+		};
+		E142E4791E64290E00124568 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E142E4751E64290D00124568 /* 05_functions.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E142E46B1E64290D00124568;
+			remoteInfo = 05_functions;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		E142E3DC1E64126900124568 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		E142E3F31E6418C900124568 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +79,23 @@
 /* Begin PBXFileReference section */
 		E142E3DE1E64126900124568 /* objective-c-training */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "objective-c-training"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E142E3E11E64126900124568 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E142E3F51E6418C900124568 /* 01_program_structure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 01_program_structure; sourceTree = BUILT_PRODUCTS_DIR; };
+		E142E4111E641A6A00124568 /* 01_program_structure.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = 01_program_structure.xcodeproj; path = 01_program_structure/01_program_structure.xcodeproj; sourceTree = "<group>"; };
+		E142E42A1E641D7B00124568 /* 02_tokens_in_objective_c.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = 02_tokens_in_objective_c.xcodeproj; path = 02_tokens_in_objective_c/02_tokens_in_objective_c.xcodeproj; sourceTree = "<group>"; };
+		E142E4431E64226B00124568 /* 03_variables.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = 03_variables.xcodeproj; path = 03_variables/03_variables.xcodeproj; sourceTree = "<group>"; };
+		E142E45C1E64256D00124568 /* 04_constants.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = 04_constants.xcodeproj; path = 04_constants/04_constants.xcodeproj; sourceTree = "<group>"; };
+		E142E4751E64290D00124568 /* 05_functions.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = 05_functions.xcodeproj; path = 05_functions/05_functions.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E142E3DB1E64126900124568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E142E3F21E6418C900124568 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +108,11 @@
 		E142E3D51E64126900124568 = {
 			isa = PBXGroup;
 			children = (
+				E142E4751E64290D00124568 /* 05_functions.xcodeproj */,
+				E142E45C1E64256D00124568 /* 04_constants.xcodeproj */,
+				E142E4431E64226B00124568 /* 03_variables.xcodeproj */,
+				E142E42A1E641D7B00124568 /* 02_tokens_in_objective_c.xcodeproj */,
+				E142E4111E641A6A00124568 /* 01_program_structure.xcodeproj */,
 				E142E3E01E64126900124568 /* objective-c-training */,
 				E142E3DF1E64126900124568 /* Products */,
 			);
@@ -50,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				E142E3DE1E64126900124568 /* objective-c-training */,
+				E142E3F51E6418C900124568 /* 01_program_structure */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +133,46 @@
 				E142E3E11E64126900124568 /* main.m */,
 			);
 			path = "objective-c-training";
+			sourceTree = "<group>";
+		};
+		E142E4121E641A6A00124568 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E142E4161E641A6B00124568 /* 01_program_structure */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E142E42B1E641D7B00124568 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E142E42F1E641D7C00124568 /* 02_tokens_in_objective_c */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E142E4441E64226B00124568 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E142E4481E64226C00124568 /* 03_variables */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E142E45D1E64256D00124568 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E142E4611E64256E00124568 /* 04_constants */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E142E4761E64290D00124568 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E142E47A1E64290E00124568 /* 05_functions */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -76,10 +189,28 @@
 			buildRules = (
 			);
 			dependencies = (
+				E142E3FD1E6419DF00124568 /* PBXTargetDependency */,
 			);
 			name = "objective-c-training";
 			productName = "objective-c-training";
 			productReference = E142E3DE1E64126900124568 /* objective-c-training */;
+			productType = "com.apple.product-type.tool";
+		};
+		E142E3F41E6418C900124568 /* 01_program_structure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E142E3F91E6418C900124568 /* Build configuration list for PBXNativeTarget "01_program_structure" */;
+			buildPhases = (
+				E142E3F11E6418C900124568 /* Sources */,
+				E142E3F21E6418C900124568 /* Frameworks */,
+				E142E3F31E6418C900124568 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 01_program_structure;
+			productName = 01_program_structure;
+			productReference = E142E3F51E6418C900124568 /* 01_program_structure */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,6 +227,11 @@
 						DevelopmentTeam = MKUZVWUR88;
 						ProvisioningStyle = Automatic;
 					};
+					E142E3F41E6418C900124568 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MKUZVWUR88;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = E142E3D91E64126900124568 /* Build configuration list for PBXProject "objective-c-training" */;
@@ -108,23 +244,99 @@
 			mainGroup = E142E3D51E64126900124568;
 			productRefGroup = E142E3DF1E64126900124568 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E142E4121E641A6A00124568 /* Products */;
+					ProjectRef = E142E4111E641A6A00124568 /* 01_program_structure.xcodeproj */;
+				},
+				{
+					ProductGroup = E142E42B1E641D7B00124568 /* Products */;
+					ProjectRef = E142E42A1E641D7B00124568 /* 02_tokens_in_objective_c.xcodeproj */;
+				},
+				{
+					ProductGroup = E142E4441E64226B00124568 /* Products */;
+					ProjectRef = E142E4431E64226B00124568 /* 03_variables.xcodeproj */;
+				},
+				{
+					ProductGroup = E142E45D1E64256D00124568 /* Products */;
+					ProjectRef = E142E45C1E64256D00124568 /* 04_constants.xcodeproj */;
+				},
+				{
+					ProductGroup = E142E4761E64290D00124568 /* Products */;
+					ProjectRef = E142E4751E64290D00124568 /* 05_functions.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				E142E3DD1E64126900124568 /* objective-c-training */,
+				E142E3F41E6418C900124568 /* 01_program_structure */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E142E4161E641A6B00124568 /* 01_program_structure */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = 01_program_structure;
+			remoteRef = E142E4151E641A6B00124568 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E142E42F1E641D7C00124568 /* 02_tokens_in_objective_c */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = 02_tokens_in_objective_c;
+			remoteRef = E142E42E1E641D7C00124568 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E142E4481E64226C00124568 /* 03_variables */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = 03_variables;
+			remoteRef = E142E4471E64226C00124568 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E142E4611E64256E00124568 /* 04_constants */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = 04_constants;
+			remoteRef = E142E4601E64256E00124568 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E142E47A1E64290E00124568 /* 05_functions */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = 05_functions;
+			remoteRef = E142E4791E64290E00124568 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E142E3DA1E64126900124568 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E142E3E21E64126900124568 /* main.m in Sources */,
+				E142E3F01E64187D00124568 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E142E3F11E6418C900124568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E142E3FD1E6419DF00124568 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E142E3F41E6418C900124568 /* 01_program_structure */;
+			targetProxy = E142E3FC1E6419DF00124568 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E142E3E31E64126900124568 /* Debug */ = {
@@ -230,6 +442,22 @@
 			};
 			name = Release;
 		};
+		E142E3FA1E6418C900124568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MKUZVWUR88;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E142E3FB1E6418C900124568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MKUZVWUR88;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -247,6 +475,15 @@
 			buildConfigurations = (
 				E142E3E61E64126900124568 /* Debug */,
 				E142E3E71E64126900124568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E142E3F91E6418C900124568 /* Build configuration list for PBXNativeTarget "01_program_structure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E142E3FA1E6418C900124568 /* Debug */,
+				E142E3FB1E6418C900124568 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

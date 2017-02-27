@@ -7,22 +7,12 @@
 		<key>01_program_structure.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-		<key>objective-c-training.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>E142E3DD1E64126900124568</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E142E3F41E6418C900124568</key>
+		<key>E142E4061E641A6A00124568</key>
 		<dict>
 			<key>primary</key>
 			<true/>
