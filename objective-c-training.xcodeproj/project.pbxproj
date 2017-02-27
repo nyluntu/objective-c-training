@@ -74,6 +74,20 @@
 			remoteGlobalIDString = E142E4CF1E643D2D00124568;
 			remoteInfo = 08_pointers;
 		};
+		E142E50F1E64400B00124568 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E142E50B1E64400B00124568 /* 09_structures.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E142E5011E64400A00124568;
+			remoteInfo = 09_structures;
+		};
+		E142E5281E644D0700124568 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E142E5241E644D0600124568 /* 10_error_handling.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E142E51A1E644D0600124568;
+			remoteInfo = 10_error_handling;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -109,6 +123,8 @@
 		E142E4A71E64308900124568 /* 06_blocks.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = 06_blocks.xcodeproj; path = 06_blocks/06_blocks.xcodeproj; sourceTree = "<group>"; };
 		E142E4C01E64348900124568 /* 07_numbers.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = 07_numbers.xcodeproj; path = 07_numbers/07_numbers.xcodeproj; sourceTree = "<group>"; };
 		E142E4D91E643D2D00124568 /* 08_pointers.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = 08_pointers.xcodeproj; path = 08_pointers/08_pointers.xcodeproj; sourceTree = "<group>"; };
+		E142E50B1E64400B00124568 /* 09_structures.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = 09_structures.xcodeproj; path = 09_structures/09_structures.xcodeproj; sourceTree = "<group>"; };
+		E142E5241E644D0600124568 /* 10_error_handling.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = 10_error_handling.xcodeproj; path = 10_error_handling/10_error_handling.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +148,8 @@
 		E142E3D51E64126900124568 = {
 			isa = PBXGroup;
 			children = (
+				E142E5241E644D0600124568 /* 10_error_handling.xcodeproj */,
+				E142E50B1E64400B00124568 /* 09_structures.xcodeproj */,
 				E142E4D91E643D2D00124568 /* 08_pointers.xcodeproj */,
 				E142E4C01E64348900124568 /* 07_numbers.xcodeproj */,
 				E142E4A71E64308900124568 /* 06_blocks.xcodeproj */,
@@ -222,6 +240,22 @@
 			isa = PBXGroup;
 			children = (
 				E142E4DE1E643D2E00124568 /* 08_pointers */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E142E50C1E64400B00124568 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E142E5101E64400B00124568 /* 09_structures */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E142E5251E644D0600124568 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E142E5291E644D0700124568 /* 10_error_handling */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -328,6 +362,14 @@
 					ProductGroup = E142E4DA1E643D2D00124568 /* Products */;
 					ProjectRef = E142E4D91E643D2D00124568 /* 08_pointers.xcodeproj */;
 				},
+				{
+					ProductGroup = E142E50C1E64400B00124568 /* Products */;
+					ProjectRef = E142E50B1E64400B00124568 /* 09_structures.xcodeproj */;
+				},
+				{
+					ProductGroup = E142E5251E644D0600124568 /* Products */;
+					ProjectRef = E142E5241E644D0600124568 /* 10_error_handling.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -392,6 +434,20 @@
 			fileType = "compiled.mach-o.executable";
 			path = 08_pointers;
 			remoteRef = E142E4DD1E643D2E00124568 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E142E5101E64400B00124568 /* 09_structures */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = 09_structures;
+			remoteRef = E142E50F1E64400B00124568 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E142E5291E644D0700124568 /* 10_error_handling */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = 10_error_handling;
+			remoteRef = E142E5281E644D0700124568 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
