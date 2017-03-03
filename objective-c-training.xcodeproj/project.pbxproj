@@ -88,6 +88,13 @@
 			remoteGlobalIDString = E142E51A1E644D0600124568;
 			remoteInfo = 10_error_handling;
 		};
+		E19D60281E69635500CDBDED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E19D60241E69635400CDBDED /* TodoList.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E19D600A1E69635400CDBDED;
+			remoteInfo = TodoList;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -125,6 +132,7 @@
 		E142E4D91E643D2D00124568 /* 08_pointers.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = 08_pointers.xcodeproj; path = 08_pointers/08_pointers.xcodeproj; sourceTree = "<group>"; };
 		E142E50B1E64400B00124568 /* 09_structures.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = 09_structures.xcodeproj; path = 09_structures/09_structures.xcodeproj; sourceTree = "<group>"; };
 		E142E5241E644D0600124568 /* 10_error_handling.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = 10_error_handling.xcodeproj; path = 10_error_handling/10_error_handling.xcodeproj; sourceTree = "<group>"; };
+		E19D60241E69635400CDBDED /* TodoList.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TodoList.xcodeproj; path = TodoList/TodoList.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +156,7 @@
 		E142E3D51E64126900124568 = {
 			isa = PBXGroup;
 			children = (
+				E19D60241E69635400CDBDED /* TodoList.xcodeproj */,
 				E142E5241E644D0600124568 /* 10_error_handling.xcodeproj */,
 				E142E50B1E64400B00124568 /* 09_structures.xcodeproj */,
 				E142E4D91E643D2D00124568 /* 08_pointers.xcodeproj */,
@@ -256,6 +265,14 @@
 			isa = PBXGroup;
 			children = (
 				E142E5291E644D0700124568 /* 10_error_handling */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E19D60251E69635400CDBDED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E19D60291E69635500CDBDED /* TodoList.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -370,6 +387,10 @@
 					ProductGroup = E142E5251E644D0600124568 /* Products */;
 					ProjectRef = E142E5241E644D0600124568 /* 10_error_handling.xcodeproj */;
 				},
+				{
+					ProductGroup = E19D60251E69635400CDBDED /* Products */;
+					ProjectRef = E19D60241E69635400CDBDED /* TodoList.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -448,6 +469,13 @@
 			fileType = "compiled.mach-o.executable";
 			path = 10_error_handling;
 			remoteRef = E142E5281E644D0700124568 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E19D60291E69635500CDBDED /* TodoList.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = TodoList.app;
+			remoteRef = E19D60281E69635500CDBDED /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -626,6 +654,7 @@
 				E142E3FB1E6418C900124568 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
