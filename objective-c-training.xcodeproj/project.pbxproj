@@ -95,6 +95,13 @@
 			remoteGlobalIDString = E19D600A1E69635400CDBDED;
 			remoteInfo = TodoList;
 		};
+		E19D605A1E6992DF00CDBDED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E19D60561E6992DE00CDBDED /* webViewDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E19D603C1E6992DE00CDBDED;
+			remoteInfo = webViewDemo;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -133,6 +140,7 @@
 		E142E50B1E64400B00124568 /* 09_structures.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = 09_structures.xcodeproj; path = 09_structures/09_structures.xcodeproj; sourceTree = "<group>"; };
 		E142E5241E644D0600124568 /* 10_error_handling.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = 10_error_handling.xcodeproj; path = 10_error_handling/10_error_handling.xcodeproj; sourceTree = "<group>"; };
 		E19D60241E69635400CDBDED /* TodoList.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TodoList.xcodeproj; path = TodoList/TodoList.xcodeproj; sourceTree = "<group>"; };
+		E19D60561E6992DE00CDBDED /* webViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = webViewDemo.xcodeproj; path = webViewDemo/webViewDemo.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +164,7 @@
 		E142E3D51E64126900124568 = {
 			isa = PBXGroup;
 			children = (
+				E19D60561E6992DE00CDBDED /* webViewDemo.xcodeproj */,
 				E19D60241E69635400CDBDED /* TodoList.xcodeproj */,
 				E142E5241E644D0600124568 /* 10_error_handling.xcodeproj */,
 				E142E50B1E64400B00124568 /* 09_structures.xcodeproj */,
@@ -277,6 +286,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		E19D60571E6992DE00CDBDED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E19D605B1E6992DF00CDBDED /* webViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -391,6 +408,10 @@
 					ProductGroup = E19D60251E69635400CDBDED /* Products */;
 					ProjectRef = E19D60241E69635400CDBDED /* TodoList.xcodeproj */;
 				},
+				{
+					ProductGroup = E19D60571E6992DE00CDBDED /* Products */;
+					ProjectRef = E19D60561E6992DE00CDBDED /* webViewDemo.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -476,6 +497,13 @@
 			fileType = wrapper.application;
 			path = TodoList.app;
 			remoteRef = E19D60281E69635500CDBDED /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E19D605B1E6992DF00CDBDED /* webViewDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = webViewDemo.app;
+			remoteRef = E19D605A1E6992DF00CDBDED /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
