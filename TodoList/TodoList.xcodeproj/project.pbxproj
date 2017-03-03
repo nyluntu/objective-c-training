@@ -14,6 +14,7 @@
 		E19D601D1E69635400CDBDED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19D601B1E69635400CDBDED /* LaunchScreen.storyboard */; };
 		E19D602C1E69781A00CDBDED /* AddTodoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E19D602B1E69781A00CDBDED /* AddTodoItemViewController.m */; };
 		E19D602F1E6978E500CDBDED /* TodoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E19D602E1E6978E500CDBDED /* TodoListTableViewController.m */; };
+		E19D60321E6982DD00CDBDED /* TodoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E19D60311E6982DD00CDBDED /* TodoItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		E19D602B1E69781A00CDBDED /* AddTodoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTodoItemViewController.m; sourceTree = "<group>"; };
 		E19D602D1E6978E500CDBDED /* TodoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoListTableViewController.h; sourceTree = "<group>"; };
 		E19D602E1E6978E500CDBDED /* TodoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoListTableViewController.m; sourceTree = "<group>"; };
+		E19D60301E6982DD00CDBDED /* TodoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoItem.h; sourceTree = "<group>"; };
+		E19D60311E6982DD00CDBDED /* TodoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				E19D60101E69635400CDBDED /* AppDelegate.h */,
 				E19D60111E69635400CDBDED /* AppDelegate.m */,
 				E19D60161E69635400CDBDED /* Main.storyboard */,
+				E19D60301E6982DD00CDBDED /* TodoItem.h */,
+				E19D60311E6982DD00CDBDED /* TodoItem.m */,
 				E19D602D1E6978E500CDBDED /* TodoListTableViewController.h */,
 				E19D602E1E6978E500CDBDED /* TodoListTableViewController.m */,
 				E19D60191E69635400CDBDED /* Assets.xcassets */,
@@ -159,6 +164,7 @@
 				E19D602F1E6978E500CDBDED /* TodoListTableViewController.m in Sources */,
 				E19D602C1E69781A00CDBDED /* AddTodoItemViewController.m in Sources */,
 				E19D600F1E69635400CDBDED /* main.m in Sources */,
+				E19D60321E6982DD00CDBDED /* TodoItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
